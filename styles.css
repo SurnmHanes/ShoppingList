@@ -24,7 +24,7 @@ h1, h2, h3, h4, p {
     border-radius: 50%;
 }
 
-.fruit-veg, .store-cupboard, .meats, .dairy, .nibbles, .pantry, .drinks, .cleaning, .hygiene, .freezer, .breakfast, .breads {
+.fruit-veg, .store-cupboard, .meats, .dairy, .nibbles, .pantry, .drinks, .cleaning, .hygiene, .freezer, .bakery, .breakfast, .breads {
     display: grid;
     grid-template-columns: 30px 200px 30px 200px 30px 200px 30px 200px;
     align-items: center;
