@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
   </head>
-   <body>
+  <body>
     <div id="header">
       <h1>Shopping List🍋</h1>
       <img id="main-logo" src="images/aldi.jpg">
@@ -24,18 +24,14 @@
         <label for="nectarines">Nectarines</label>
         <input type="checkbox" id="" name="plums" >
         <label for="plums">Plums</label>
-        <input type="checkbox" id="" name="strawberries" >
-        <label for="strawberries">Strawberries</label>
-        <input type="checkbox" id="" name="raspberries" >
-        <label for="raspberries">Raspberries</label>
         <input type="checkbox" id="" name="bananas" >
         <label for="bananas">Bananas</label>
         <input type="checkbox" id="" name="red-apples" >
         <label for="red-apples">Red Apples</label>
         <input type="checkbox" id="" name="green-apples" >
         <label for="green-apples">Green Apples</label>
-        <input type="checkbox" id="" name="easy-peelers" >
-        <label for="easy-peelers">Easy Peelers</label>
+        <input type="checkbox" id="" name="seasonal-fruit" >
+        <label for="seasonal-fruit">Seasonal Fruit</label>
         <input type="checkbox" id="" name="salad" >
         <label for="salad">Salad</label>
         <input type="checkbox" id="" name="peppers" >
@@ -43,9 +39,12 @@
         <input type="checkbox" id="" name="onions" >
         <label for="onions">Onions</label> 
       
+        <input type="checkbox" id="" name="jackets" >
+        <label for="jackets">Jackets</label> 
+
         <input type="text" class="potatoes-input" name="potatoes">
         <label for="potatoes" class="potatoes-label">Bags of Potatoes</label>
-      
+    
       </div>
       <br>
       <div class="fruit-others-section"> 
@@ -156,6 +155,8 @@
     <label for="margarine">Margarine</label>
     <input type="checkbox" id="" name="butter" >
     <label for="butter">Butter</label>
+    <input type="checkbox" id="" name="pastry" >
+    <label for="pastry">Pastry</label>
     <input type="checkbox" id="" name="yoghurts-k" >
     <label for="yoghurts-k">Yoghurts K</label>
     <input type="checkbox" id="" name="yoghurts-n" >
@@ -168,6 +169,12 @@
     <label for="milk-r">Red Milk</label>
     <input type="checkbox" id="" name="milk-g" >
     <label for="milk-g">Green Milk</label>
+    <input type="checkbox" id="" name="soured-cream" >
+    <label for="soured-cream">Soured Cream</label>
+    <input type="checkbox" id="" name="d-cream" >
+    <label for="d-cream">Double Cream</label>
+
+
   </div>
     <br>
     <label for="dairy-others">Other</label> 
@@ -328,6 +335,8 @@
     <label for="pizza">Pizza for Lunches</label>
     <input type="checkbox" id="" name="frozen-fruit" >
     <label for="frozen-fruit">Frozen Fruit</label>
+    <input type="checkbox" id="" name="pud" >
+    <label for="pud">Pudding</label>
     <input type="checkbox" id="" name="ice-cream" >
     <label for="ice-cream" class="wide-label">Ice Cream | Type:</label>
     
@@ -341,10 +350,8 @@
 </fieldset>
 
 <fieldset>
-  <legend>Breakfast & Snacks</legend>
-  <div class="breakfast">
-    <input type="checkbox" id="" name="pic-and-mix" >
-    <label for="pic-and-mix">Pick and Mix</label>
+  <legend>Bakery / Snacks</legend>
+  <div class="bakery">
     <input type="checkbox" id="" name="biscuit-spread" >
     <label for="biscuit-spread">Biscuit Spread</label>
     <input type="checkbox" id="" name="peanut-butter" >
@@ -357,13 +364,19 @@
     <label for="plain-flour">Plain Flour</label>
     <input type="checkbox" id="" name="eggs" >
     <label for="eggs">Eggs</label>
+    <input type="checkbox" id="" name="pic-and-mix" >
+    <label for="pic-and-mix">Pick and Mix</label>
     <input type="checkbox" id="" name="snacks" >
     <label for="snacks">15 (min.) school snacks </label>
     <input type="checkbox" id="" name="biscuits" >
     <label for="biscuits">Biscuits</label>
     <input type="checkbox" id="" name="biscuits-n" >
-    <label for="biscuits-n">Oaties</label>
-
+    <label for="biscuits-n">Biscuits N</label>
+  </div>
+</fieldset>
+<fieldset>
+  <legend>Breakfast</legend>
+  <div class="breakfast">
     <input type="checkbox" id="" name="cereal" >
     <label for="cereal" class="wide-label">Cereal | No. of Boxes:</label>
     
@@ -374,7 +387,7 @@
     <input type="checkbox" id="" name="porridge">
     <label for="porridge">Porridge</label>
     <input type="checkbox" id="" name="munch-bars">
-    <label for="munch-bars">Munch Bars</label>
+        <label for="munch-bars">Munch Bars</label>
     <input type="checkbox" id="" name="b-bars" >
     <label for="b-bars">Breakfast Bars</label>
     <input type="checkbox" id="" name="tea-caff" >
@@ -386,14 +399,14 @@
     <input type="checkbox" id="" name="hot-choc" >
     <label for="hot-choc">Hot Choc</label>
   </div>
-    <br>
-    <label for="breakfast-others">Other</label> 
-    <input type="text" id="" name="breakfast-others" size="100"> 
   </fieldset>
 
 <fieldset>
   <legend>Breads</legend>
   <div class="breads">
+    <input type="checkbox" id="" name="brioche" >
+    <label for="brioche">Brioche</label>
+
     <input type="checkbox" id="" name="wraps" >
     <label for="wraps" class="wide-label">Wraps | No. of Packs:</label>
     
@@ -405,6 +418,8 @@
     <label for="pitta">Pitta</label>
     <input type="checkbox" id="" name="crumpet" >
     <label for="crumpet">Crumpets</label>
+
+
 
     <input type="checkbox" id="" name="cobs" style="grid-column:1;">
     <label for="cobs" class="wide-label">Cobs | No. of Packs:</label>
@@ -421,16 +436,13 @@
     </div>
 
   </div>
-    <br>
-    <label for="bread-others">Other</label> 
-    <input type="text" id="" name="bread-others" size="100"> 
+   
 </fieldset>
 
 <fieldset>
   <legend>Extras</legend>
   <div class="others">
-    <input type="checkbox" id="" name="pud" >
-    <label for="pud">Pudding</label>
+    <input type="text" id="" name="others" size="125"> 
   </div>
 </fieldset>
 
